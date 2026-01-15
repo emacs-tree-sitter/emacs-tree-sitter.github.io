@@ -4,7 +4,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2023-02-11T09:54:08 UTC">
+<meta name="revised" content="2026-01-15T23:01:00 UTC">
 <title>Getting Started :: Emacs Tree-sitter</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/nucleus.css" rel="stylesheet">
@@ -222,7 +222,7 @@ if (!doNotTrack) {
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nv">add-hook</span> <span class="ss">&#39;rust-mode-hook</span> <span class="nf">#&#39;</span><span class="nv">tree-sitter-mode</span><span class="p">)</span>
 </code></pre></div><p>To enable it for all supported major modes:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nv">global-tree-sitter-mode</span><span class="p">)</span>
-</code></pre></div><p>For the full list of supported major modes, check the variable <code>tree-sitter-major-mode-language-alist</code>.</p>
+</code></pre></div><p>For the full list of supported major modes, check the variable <code>tree-sitter-major-mode-language-table</code>.</p>
 <h2 id="turn-on-syntax-highlighting">Turn on Syntax Highlighting</h2>
 <p>Run <code>M-x tree-sitter-hl-mode</code> to replace the regex-based highlighting provided by <code>font-lock-mode</code> with tree-based syntax highlighting.</p>
 <p>For more details, see <a href="../syntax-highlighting/">Syntax Highlighting</a>.</p>

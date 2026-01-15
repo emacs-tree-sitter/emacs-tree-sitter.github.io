@@ -26,7 +26,7 @@
       <description>The minor mode tree-sitter-mode provides a buffer-local syntax tree, which is kept up-to-date with changes to the buffer&amp;rsquo;s text.
 It can be toggled in a buffer by the command tree-sitter-mode, or enabled through major mode hooks:
 (add-hook &amp;#39;rust-mode-hook #&amp;#39;tree-sitter-mode) To enable it for all supported major modes:
-(global-tree-sitter-mode) For the full list of supported major modes, check the variable tree-sitter-major-mode-language-alist.
+(global-tree-sitter-mode) For the full list of supported major modes, check the variable tree-sitter-major-mode-language-table.
 Turn on Syntax Highlighting Run M-x tree-sitter-hl-mode to replace the regex-based highlighting provided by font-lock-mode with tree-based syntax highlighting.</description>
     </item>
     
@@ -127,7 +127,7 @@ When the query is executed, each captured node is tagged with a symbol, whose na
       <guid>https://emacs-tree-sitter.github.io/tree-sitter-mode/</guid>
       <description>tree-sitter-mode is a minor mode that provides a buffer-local up-to-date syntax tree.
 TODO: Write this.
- Hook: tree-sitter-after-on-hook  Hook: tree-sitter-after-first-parse-hook  Hook: tree-sitter-after-change-functions  Variable: tree-sitter-major-mode-language-alist  Variable: tree-sitter-language  Variable: tree-sitter-tree  Function: tree-sitter-node-at-pos [node-type] [pos]   Writing a Dependent Minor Mode See the docstring of tree-sitter--handle-dependent.</description>
+ Hook: tree-sitter-after-on-hook  Hook: tree-sitter-after-first-parse-hook  Hook: tree-sitter-after-change-functions  Variable: tree-sitter-major-mode-language-table  Variable: tree-sitter-language  Variable: tree-sitter-tree  Function: tree-sitter-node-at-pos [node-type] [pos]   Writing a Dependent Minor Mode See the docstring of tree-sitter--handle-dependent.</description>
     </item>
     
   </channel>
